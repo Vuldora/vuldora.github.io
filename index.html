@@ -3,25 +3,21 @@
 <style type="text/css">
 @font-face {
     font-family: "Comic Sans MS";
-    src: url("https://db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.eot");
-    src: url("https://db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.svg#Comic Sans MS")format("svg");
+    src: url("fonts/comic_sans_ms.woff2")format("woff2");
 }
 body {
   background-color: #E676DA;
-	background-image: url("border.png");
+	background-image: url("images/border.png");
   background-repeat: repeat-x;
 }
 h1 {
-  color: black;
+	font-size: 72px;
+   color: black;
   -webkit-text-fill-color: white;
-  -webkit-text-stroke: 2px #E651D6;
+  -webkit-text-stroke: 4px #E651D6;
 	font-family: Comic Sans MS;
-	font-size: 82px;
 	margin-top: -20px;
+	margin-bottom: 0;
 }
 p 	{
 	font-family: Comic Sans MS;
@@ -29,18 +25,38 @@ p 	{
 a {
 	font-family: Comic Sans MS;
 }
+.bar_button {
+	font-size: 24px;
+	text-decoration: none;
+	color: white; 
+	margin: 0 0 0 12px;
+}
+.bar_button:hover {
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+   color: transparent;
+}
 </style>
 <head>
 <title>Vuldora.com</title>
 </head>
+
 <body>
+<div style="float:left">
 <h1>Vuldora</h1>
+</div>
+<div style="float:left; margin-bottom: -18px;">
+<img src="images/violet_peek.webp" alt="" width="132" height="auto">
+</div>
+<div style="clear:both; width: 110%; height: 40px; background-color: #E651D6; border: 2px solid #BD21AC; margin: 0 0 0 -10px;">
+<a href="index.html" class="bar_button">Home</a>
+<a href="gallery.html" class="bar_button">Gallery</a>
+</div>
 <div style="width: 50%; float:right">
-<img src="violet2.png" width="368" height="368" alt="">
+<img src="images/violet.png" width="368" height="368" alt="">
 </div>
 <div style="width: 50%; float:left"><p>**This website is still under construction**</p>
 <p>Heya! I'm Vuldora, I'm a 19 year old trans girl.
-I'm a novice artist and programmer and enjoy playing video games and Linux</p>
+I'm a novice artist and programmer and enjoy playing video games and doing Linux stuff</p>
 <p>Socials:</p>
 
 <a href="https://www.youtube.com/channel/UCjyx5hH1fkHJQUxkCB76Xzw">Youtube</a>
