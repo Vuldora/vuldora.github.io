@@ -35,9 +35,16 @@ a {
 	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
    color: transparent;
 }
+
+@media only screen and (max-width: 940px) {
+    .violet_peek
+    {
+		display: none;    
+    }
+}
 </style>
 <head>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <!-- HTML Meta Tags -->
 <title>Vuldora.com</title>
 <meta name="description" content="Vuldora's own personal website, come say hi :3">
@@ -63,14 +70,14 @@ a {
 <h1>Vuldora</h1>
 </div>
 <div style="float:left; margin-bottom: -18px;">
-<img src="images/violet_peek.webp" alt="" width="132" height="auto">
+<img src="images/violet_peek.webp" alt="" width="132" height="auto" class="violet_peek">
 </div>
 <div style="clear:both; width: 110%; height: 40px; background-color: #E651D6; border: 2px solid #BD21AC; margin: 0 0 0 -10px;">
 <a href="index.html" class="bar_button">Home</a>
 <a href="gallery.html" class="bar_button">Gallery</a>
 </div>
 <div style="width: 50%; float:right">
-<img src="images/violet.png" width="368" height="368" alt="">
+<img src="images/violet.png" width="368" height="368" alt="" class="violet_peek">
 </div>
 <div style="width: 50%; float:left"><p>**This website is still under construction**</p>
 <p>Heya! I'm Vuldora, I'm a 19 year old trans girl.
