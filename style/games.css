@@ -1,0 +1,27 @@
+.gamesContainer {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 72px;
+	justify-content: center;
+}
+
+.gameDiv {
+	display: flex;
+	width: 300px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: #555555;
+	border-radius: 6px;
+	padding: 16px 16px 16px 16px;
+}
+
+.gameLink {
+	color: #5588FF;
+	font-size: 32px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+.gameLink:visited {
+	color: #5588FF;
+}
