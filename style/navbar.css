@@ -4,14 +4,14 @@
 }
 
 .navbarDiv {
-    background-color: #FF88EE;
+	margin-top: 8px;
 }
 
 .bar_button {
 	font-size: 24px;
 	text-decoration: none;
 	color: white; 
-	margin: 0 0 0 12px;
+	min-height: 48px;
 }
 
 .bar_button:hover {
@@ -19,20 +19,27 @@
     color: transparent;
 }
 
-@media only screen and (max-width: 940px) {
-    .violet_peek
-    {
-		display: none;    
-    }
+.topbarDiv {
+	display: flex;
+	gap: 16px;
+	margin: 0 0 -16px 0;
 }
 
-@media only screen and (min-width: 940px) {
-   .mainbar 
-   {
-		width: 50%;
-		float:left;
-	}
+.buttonBar {
+	display: flex;
+    flex-wrap: wrap;
+	align-items: center;
+	gap: 16px;
+	padding-left: 16px;
+	padding-top: 6px;
+	background-color: #FF4488;
+	margin: 0 0 0 0;
 }
 
+.navbarTitle {
+	margin-left: 16px;
+}
 
-
+.violet_peek {
+	z-index: 1;
+}

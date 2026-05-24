@@ -1,20 +1,21 @@
 body {
-  background-color: #333333;
-	background-image: url("images/border.png");
-  background-repeat: repeat-x;
+	background-color: #333333;
+	background-image: url("/images/border.png");
+	background-repeat: repeat-x;
+	margin: 0 0 0 0;
 }
 h1 {
-	font-size: 72px;
-   color: black;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke: 4px #E651D6;
+	font-size: clamp(48px, 8vw, 72px);
+	color: black;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke: 2px #E651D6;
 	font-family: Comic Sans MS;
-	margin-top: -20px;
 	margin-bottom: 0;
+	margin-top: 0;
 }
 p {
 	font-family: Comic Sans MS;
-    font-size: 36px;
+    font-size: 24px;
     color: white;
 }
 a {
@@ -65,4 +66,8 @@ button:hover span {
 
 button:active {
   transform: scale(0.9);
+}
+
+.mainDiv {
+	margin: 20px 20px 20px 20px;
 }
