@@ -1,0 +1,47 @@
+.titleText {
+	font-size: clamp(48px, 8vw, 72px);
+	-webkit-text-fill-color: #FF5599;
+	-webkit-text-stroke: 3px #FFFFFF;
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 0 0;
+	padding-bottom: 8px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap = 8px;
+}
+
+.column {
+  flex: 23%;
+  max-width: 25%;
+  margin-right: 8px;
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.column img:hover {
+	filter: brightness(0.8);
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 48%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+

@@ -4,6 +4,16 @@ body {
 	background-repeat: repeat-x;
 	margin: 0 0 0 0;
 }
+.titleText {
+	font-size: clamp(48px, 8vw, 72px);
+	-webkit-text-fill-color: #FF5599;
+	-webkit-text-stroke: 3px #FFFFFF;
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 0 0;
+	padding-bottom: 8px;
+}
 h1 {
 	font-size: 48px;
 	color: white;
