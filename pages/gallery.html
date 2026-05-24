@@ -5,97 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/navbar.css">
     <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/gallery.css">
     <title>Vuldora</title>
 </head>
 
-<style type="text/css">
-.header {
-  text-align: center;
-  padding: 32px;
-}
-
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-.column img:hover {
-	filter: brightness(0.7);
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-</style>
-
 <body>
     <div id="navbarContainer"> </div>
-    <div class="header">
-    <h1>Gallery</h1>
-    </div>
-<div class="row"> 
-  <div class="column">
-    <a href="/gallery/benjamin_linux.webp"><img src="/previews/benjamin_linux.webp" style="width:100%"></a>
-    <a href="/gallery/biker_bone.webp"><img src="/previews/biker_bone.webp" style="width:100%"></a>
-    <a href="/gallery/brickell_by_the_lake.webp"><img src="/previews/brickell_by_the_lake.webp" style="width:100%"></a>
-    <a href="/gallery/cologne.webp"><img src="/previews/cologne.webp" style="width:100%"></a>
-    <a href="/gallery/cool_breeze.webp"><img src="/previews/cool_breeze.webp" style="width:100%"></a>
-    <a href="/gallery/darkt.webp"><img src="/previews/darkt.webp" style="width:100%"></a>
-  </div>
-  <div class="column">
-    <a href="/gallery/kc-ww.webp"><img src="/previews/kc-ww.webp" style="width:100%"></a>
-    <a href="/gallery/engineer_gaming.webp"><img src="/previews/engineer_gaming.webp" style="width:100%"></a>
-    <a href="/gallery/gay_sotf.webp"><img src="/previews/gay_sotf.webp" style="width:100%"></a>
-    <a href="/gallery/popology.webp"><img src="/previews/popology.webp" style="width:100%"></a>
-    <a href="/gallery/quincy_vs_jericho.webp"><img src="/previews/quincy_vs_jericho.webp" style="width:100%"></a>
+	<div id="mainContainer" class="mainContainer">
+		<h1 id="titleText" class="titleText">Gallery</h1>
+		<div class="row"> 
+			<div class="column">
+				<a href="/gallery/benjamin_linux.webp"><img src="/previews/benjamin_linux.webp" loading="lazy"></a>
+				<a href="/gallery/biker_bone.webp"><img src="/previews/biker_bone.webp" loading="lazy"></a>
+				<a href="/gallery/brickell_by_the_lake.webp"><img src="/previews/brickell_by_the_lake.webp" loading="lazy"></a>
+				<a href="/gallery/cologne.webp"><img src="/previews/cologne.webp" loading="lazy"></a>
+				<a href="/gallery/cool_breeze.webp"><img src="/previews/cool_breeze.webp" loading="lazy"></a>
+				<a href="/gallery/darkt.webp"><img src="/previews/darkt.webp" loading="lazy"></a>
+			</div>
+			<div class="column">
+				<a href="/gallery/kc-ww.webp"><img src="/previews/kc-ww.webp" loading="lazy"></a>
+				<a href="/gallery/engineer_gaming.webp"><img src="/previews/engineer_gaming.webp" loading="lazy"></a>
+				<a href="/gallery/gay_sotf.webp"><img src="/previews/gay_sotf.webp" loading="lazy"></a>
+				<a href="/gallery/popology.webp"><img src="/previews/popology.webp" loading="lazy"></a>
+				<a href="/gallery/quincy_vs_jericho.webp"><img src="/previews/quincy_vs_jericho.webp" loading="lazy"></a>
 
-  </div>  
-  <div class="column">
-    <a href="/gallery/violet_version_2.webp"><img src="/previews/violet_version_2.webp" style="width:100%"></a>
-    <a href="/gallery/violet_version_3.webp"><img src="/previews/violet_version_3.webp" style="width:100%"></a>
-    <a href="/gallery/void_linux_proto.webp"><img src="/previews/void_linux_proto.webp" style="width:100%"></a>
-    <a href="/gallery/biker_bone_sand.webp"><img src="/previews/biker_bone_sand.webp" style="width:100%"></a>
-    
-  </div>
-  <div class="column">
-	 <a href="/gallery/violet4.webp"><img src="/previews/violet4.webp" style="width:100%"></a>
-    <a href="/gallery/star.webp"><img src="/previews/star.webp" style="width:100%"></a>
-    <a href="/gallery/sin_trip_dart.webp"><img src="/previews/sin_trip_dart.webp" style="width:100%"></a>
-    <a href="/gallery/delice_brick.webp"><img src="/previews/delice_brick.webp" style="width:100%"></a>
-    <a href="/gallery/cuber.webp"><img src="/previews/cuber.webp" style="width:100%"></a>
-  </div>
-</div>
+			</div>  
+			<div class="column">
+				<a href="/gallery/violet_version_2.webp"><img src="/previews/violet_version_2.webp" loading="lazy"></a>
+				<a href="/gallery/violet_version_3.webp"><img src="/previews/violet_version_3.webp" loading="lazy"></a>
+				<a href="/gallery/void_linux_proto.webp"><img src="/previews/void_linux_proto.webp" loading="lazy"></a>
+				<a href="/gallery/biker_bone_sand.webp"><img src="/previews/biker_bone_sand.webp" loading="lazy"></a>
+			</div>
+			<div class="column">
+				<a href="/gallery/violet4.webp"><img src="/previews/violet4.webp" loading="lazy"></a>
+				<a href="/gallery/star.webp"><img src="/previews/star.webp" loading="lazy"></a>
+				<a href="/gallery/sin_trip_dart.webp"><img src="/previews/sin_trip_dart.webp" loading="lazy"></a>
+				<a href="/gallery/delice_brick.webp"><img src="/previews/delice_brick.webp" loading="lazy" ></a>
+				<a href="/gallery/cuber.webp"><img src="/previews/cuber.webp" loading="lazy"></a>
+			</div>
+		</div>
+	</div>
 </body>
 <script src="/script/navbar.js"></script>
 </html>
