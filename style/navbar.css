@@ -9,13 +9,16 @@
 
 .bar_button {
 	font-size: 24px;
+	font-weight: bold;
 	text-decoration: none;
 	color: white; 
 	min-height: 48px;
+	-webkit-text-stroke: 2px #EE4477;
 }
 
 .bar_button:hover {
-    background-image: linear-gradient(to left, magenta, pink, cyan, green, yellow, orange, red);   -webkit-background-clip: text;
+    background-image: linear-gradient(to left, magenta, pink, cyan, green, yellow, orange, red);
+	-webkit-background-clip: text;
     color: transparent;
 }
 
@@ -26,20 +29,28 @@
 }
 
 .buttonBar {
+	width: 100%;
 	display: flex;
     flex-wrap: wrap;
 	align-items: center;
 	gap: 16px;
 	padding-left: 16px;
 	padding-top: 6px;
-	background-color: #FF4488;
+	background-color: #FF77AA;
 	margin: 0 0 0 0;
-}
-
-.navbarTitle {
-	margin-left: 16px;
 }
 
 .violet_peek {
 	z-index: 1;
+}
+
+.navbarTitle {
+	font-size: clamp(48px, 8vw, 72px);
+	color: black;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke: 4px #FF4477;
+	font-family: Comic Sans MS;
+	margin-left: 16px;
+	font-weight: bold;
+	margin: 0 0 0 0;
 }
