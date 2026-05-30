@@ -1,4 +1,27 @@
-.gameFrame {
-  border: 6px solid #ccc;
-  border-radius: 2px;
+.frameContainer {
+    align-items: center;
+    text-align: center;
 }
+
+.iframe-wrapper {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.gameFrame {
+    margin: auto;
+    width: 80%;
+    display: block;
+    aspect-ratio: 16 / 9;
+    border: 6px solid #ccc;
+    border-radius: 2px;
+}
+
+.fsBtn {
+    padding-top: 16px;
+    margin: auto;
+}
+
+
