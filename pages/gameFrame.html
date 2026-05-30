@@ -12,9 +12,13 @@
 <body>
     <div id="navbarContainer" class="navbarDiv"> </div>
     <div id="mainContainer" class="mainContainer">
+        <div id="frameContainer" class="frameContainer">
 		<h1 id="gameTitle"></h1>
-		<iframe src="" width="640" height="360" id="gameFrame" class="gameFrame"></iframe>
-		<button id="fsBtn">Fullscreen</button>
+        <div class="iframeWrapper">
+		<iframe src="" id="gameFrame" class="gameFrame"></iframe>
+        </div>
+		<button id="fsBtn" class="fsBtn">Fullscreen</button>
+        </div>
     </div>
 </body>
 <script src="/script/navbar.js"></script>
